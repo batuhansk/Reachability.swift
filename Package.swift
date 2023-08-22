@@ -7,17 +7,17 @@ let package = Package(
     name: "Reachability",
     products: [
         .library(
-            name: "Reachability",
-            targets: ["Reachability"]),
+            name: "ReachabilityAPI",
+            targets: ["ReachabilityAPI"]),
     ],
     targets: [
         .target(
-            name: "Reachability",
+            name: "ReachabilityAPI",
             dependencies: [],
             path: "Sources"),
         .testTarget(
             name: "ReachabilityTests",
-            dependencies: ["Reachability"],
+            dependencies: ["ReachabilityAPI"],
             path: "Tests"),
     ]
 )

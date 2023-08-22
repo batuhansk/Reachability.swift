@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import Reachability
+@testable import ReachabilityAPI
 
 class ReachabilityTests: XCTestCase {
     
